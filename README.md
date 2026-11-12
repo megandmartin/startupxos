@@ -35,14 +35,16 @@ Early preview: the Mac build is ad-hoc signed and not yet notarized, and the Win
 
 | Version | Date | What changed |
 |---|---|---|
-| [**0.2.15**](https://github.com/megandmartin/startupxos/releases/tag/v0.2.15) · Mac and Windows | 12 Nov 2026 | The new startupxOS look: styles x, Clarity and Zen, in light and dark, kept through lock, restart and upgrade. Agent approvals never show more than the records they quote |
-| [0.2.11](https://github.com/megandmartin/startupxos/releases/tag/v0.2.11) · Windows | 10 Nov 2026 | Resumable vault setup; clearer password and workspace errors; add a recovery key later in Settings |
-| [0.2.9](https://github.com/megandmartin/startupxos/releases/tag/v0.2.9) · Mac | 4 Nov 2026 | Encrypted workspaces with vault passwords, recovery keys, and an encrypted database and backups |
+| [**0.2.15**](https://github.com/megandmartin/startupxos/releases/tag/v0.2.15) · Mac and Windows · public preview | 12 Nov 2026 | The new startupxOS look: styles x, Clarity and Zen, in light and dark, kept through lock, restart and upgrade. Agent approvals never show more than the records they quote |
+| [0.2.14](https://github.com/megandmartin/startupxos/releases/tag/v0.2.14) · Mac · private test build | 10 Nov 2026 | Open demo from the vault screen |
+| [0.2.13](https://github.com/megandmartin/startupxos/releases/tag/v0.2.13) · Mac · private test build | 10 Nov 2026 | Founder Desk on Today; an on-device drafting agent for approved tasks |
+| [0.2.12](https://github.com/megandmartin/startupxos/releases/tag/v0.2.12) · Windows · private test build | 10 Nov 2026 | Start a new encrypted workspace from the vault screen; recovery-key reminder |
+| [0.2.11](https://github.com/megandmartin/startupxos/releases/tag/v0.2.11) · Windows · public preview | 10 Nov 2026 | Resumable vault setup; clearer password and workspace errors; add a recovery key later in Settings |
+| [0.2.10](https://github.com/megandmartin/startupxos/releases/tag/v0.2.10) · Windows · private test build | 10 Nov 2026 | Optional recovery-key enrolment after first setup |
+| [0.2.9](https://github.com/megandmartin/startupxos/releases/tag/v0.2.9) · Mac · public preview | 4 Nov 2026 | Encrypted workspaces with vault passwords, recovery keys, and an encrypted database and backups |
 
-This list shows the versions offered for public download. Each release page has the notes and SHA-256 checksums; installers are only on [startupxos.com/download](https://www.startupxos.com/download).
+Public previews are the versions offered for download, and each has its SHA-256 checksums on its release page. Private test builds were tested in-house before the next public preview and were never offered for download. Installers are only on [startupxos.com/download](https://www.startupxos.com/download).
 
 ## Built by
 
 [Megan Martinsone](https://github.com/megandmartin), co-founder, CEO and CTO, who writes the code: Electron, React, Node.js, an encrypted SQLite workspace and MCP. startupxOS is built on the [SuperBrain](https://github.com/megandmartin/superbrain-downloads) company-memory core.
-
-Open-source components and their licences: [startupxos.com/open-source](https://www.startupxos.com/open-source).

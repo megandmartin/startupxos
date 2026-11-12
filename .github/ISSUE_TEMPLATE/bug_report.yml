@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in the startupxOS app or web preview doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Please don't paste passwords, recovery keys, company data or anything private: this page is public.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - Mac app
+        - Windows app
+        - Web preview
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in Settings → About, or in the installer file name.
+      placeholder: "0.2.15"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce help a lot. Screenshots are welcome if they show no private data.
+    validations:
+      required: true

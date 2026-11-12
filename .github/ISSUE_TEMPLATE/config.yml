@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install help
+    url: https://www.startupxos.com/install
+    about: Install notes, security warnings on first open, and checksums.
+  - name: Report a security issue privately
+    url: https://github.com/megandmartin/startupxos/security/advisories/new
+    about: Please don't open a public issue for security problems.

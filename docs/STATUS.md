@@ -29,6 +29,6 @@
 
 ## A useful first test
 
-Start with a fictional company and two small notes. Import both, check the originals, save a private decision, then quit and reopen. Confirm that the same company, notes and decision return. Connect one AI tool afterward and verify a fact against its source.
+Start with a fictional company and two small notes. Import both, check the originals, save a private decision, then quit and reopen. Confirm that the same company, notes and decision return. Imported notes start private, so a connected AI should withhold their contents until you explicitly share only the notes you intend it to use. Test factual retrieval only after that deliberate sharing step; if the app does not offer a clear sharing action, skip retrieval and check that unshared content stays unavailable.
 
 When reporting a problem, include version, build, distribution channel, operating system and the steps taken. Keep all real company data and credentials out of public issues. [Private security reporting](../SECURITY.md) is available for security concerns.

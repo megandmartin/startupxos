@@ -9,6 +9,16 @@ This is a public product record for startupxOS. It distinguishes downloads from 
 - Separated Mac download, invitation-only TestFlight, Windows coming soon and the guided web demo.
 - Documented capabilities and preview limits without presenting planned agent workflows as shipped automation.
 
+### Private Mac 0.2.19 candidate
+
+The latest integrated Mac work brings together:
+
+- Selective note import with access to original source wording.
+- Explicit consent for using an imported note in the local daily recap. Imports start private; local recap consent does not share a note with external AI.
+- Configurable agent icons, including a choice of styles or your own image.
+
+Automated source checks and independent package verification passed for the signed and notarized candidate. It is for private testing: fresh-user installation, upgrades, recovery, live provider and Windows acceptance remain pending. The public download and latest public GitHub release remain 0.2.18.
+
 ### Invitation-only Mac testing
 
 A follow-up to 0.2.18 was uploaded for internal TestFlight testing on 23 November. It addresses folder selection when resuming an import after a restart. Upload is not proof that every invited tester can install it or that the native restart test has passed. This is separate from the public download described below.

@@ -7,6 +7,7 @@
 | Experience | Status | What to expect |
 |---|---|---|
 | Mac website download | 0.2.18 · Apple Silicon · macOS 15+ | Developer ID signed and notarized; [download and install notes](https://www.startupxos.com/download) |
+| Private Mac testing | 0.2.19 · private candidate | Signed and notarized; source/package checks passed. Separate from the public download; attended acceptance pending |
 | Mac TestFlight | Invitation-only | Builds can differ from the website download. Read the build's What to Test notes in TestFlight |
 | Windows | Coming soon | Earlier release notes preserve historical Windows previews; there is no current Windows download offered on the site |
 | Guided web demo | Available at [/alpha](https://www.startupxos.com/alpha) | Scripted fictional data; no live agent, real company account or installed-app test |
@@ -18,6 +19,12 @@
 - A company brain with note relationships and access to original wording.
 - Saved founder decisions, their reasons and next steps.
 - Configuration for supported AI tools, including Claude Code and Codex. Tool registration and a successful read are separate checks.
+
+## Latest private Mac work
+
+The 23 November 0.2.19 candidate brings together selected-file import with original-source access, explicit local recap consent and configurable agent icons. New imported notes remain private. Choosing to use one in the local daily recap does not share it with external AI.
+
+Automated source checks and independent package verification passed. This is a signed and notarized private test candidate; the public download remains 0.2.18. Fresh-user installation, existing-vault upgrades, recovery, live provider and Windows acceptance still need their own observations.
 
 ## Boundaries worth knowing
 

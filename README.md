@@ -38,7 +38,7 @@ The Mac workspace stores records locally in an encrypted vault. Optional externa
 
 **Status checked 23 November 2026.** The desktop preview, TestFlight and browser demo are separate experiences. See [release channels](docs/STATUS.md) before comparing results across them.
 
-## Latest release: 0.2.18 for Mac
+## Latest public release: 0.2.18 for Mac
 
 [Read the release notes](releases/v0.2.18.md) for the 20 November Mac preview:
 
@@ -65,6 +65,7 @@ Expected SHA-256:
 
 | Milestone | What it means |
 |---|---|
+| **23 Nov · Private Mac 0.2.19** | Selected imports with originals, local recap consent and agent icons; a signed and notarized test candidate. Public download remains 0.2.18 |
 | **20 Nov · Mac 0.2.18** | Guided setup and own-note import reached the website download and TestFlight build 5 |
 | **19 Nov · Guided web demo** | A fictional company walkthrough became available at `/alpha` |
 | **Earlier previews** | Workspace encryption, saved decisions, desktop styles and guided tool setup evolved through the [release history](https://github.com/megandmartin/startupxos/releases) |
@@ -82,4 +83,4 @@ GitHub issues are public. Leave out company information, passwords, recovery key
 
 ## Built by
 
-[Megan Martinsone](https://github.com/megandmartin), co-founder leading product and engineering. startupxOS continues the company-memory work of [SuperBrain](https://github.com/megandmartin/superbrain-downloads).
+[Megan Martinsone](https://github.com/megandmartin), co-founder leading product and engineering. [Matti](https://github.com/mattibouffier-source), co-founder leading customers, pilots, go-to-market and operations. startupxOS continues the company-memory work of [SuperBrain](https://github.com/megandmartin/superbrain-downloads).

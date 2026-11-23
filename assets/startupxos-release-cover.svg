@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title description">
+  <title id="title">startupxOS - a company brain, clear decisions and your AI tools</title>
+  <desc id="description">Public release record for the Mac 0.2.18 preview. Company knowledge connects to a decision and its next step. This is an explanatory graphic, not an app screenshot.</desc>
+  <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#dce0f3"/></pattern></defs>
+  <rect width="1280" height="480" rx="20" fill="#f6f7fc"/>
+  <rect x="820" width="460" height="480" fill="url(#dots)"/>
+  <path d="M0 0h1280v7H0z" fill="#6065e8"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="64" y="66" font-size="29" font-weight="700" fill="#17182d">startup<tspan fill="#6065e8">x</tspan>OS</text>
+    <text x="64" y="105" font-size="12" letter-spacing="2.2" fill="#606b8a">PUBLIC PREVIEW / RELEASE RECORD</text>
+    <text x="60" y="192" font-size="55" font-weight="700" letter-spacing="-1.9" fill="#17182d">Company knowledge.</text>
+    <text x="60" y="256" font-size="55" font-weight="700" letter-spacing="-1.9" fill="#17182d">Decisions that carry forward.</text>
+    <text x="64" y="302" font-size="22" fill="#59647f">Your notes. Your context. Your next useful step.</text>
+    <rect x="975" y="40" width="243" height="40" rx="20" fill="#e8ebff" stroke="#d1d7ff"/>
+    <circle cx="998" cy="60" r="4" fill="#6065e8"/>
+    <text x="1012" y="66" font-size="14" font-weight="700" fill="#424ba8">MAC PREVIEW 0.2.18</text>
+    <path d="M64 342h1152" stroke="#dbe0ed"/>
+    <text x="64" y="386" font-size="13" letter-spacing="1.4" fill="#66718e">COMPANY BRAIN</text>
+    <text x="64" y="418" font-size="21" font-weight="700" fill="#26304e">Bring selected notes</text>
+    <path d="M358 394h52m-8-8 8 8-8 8" fill="none" stroke="#9ba6ce" stroke-width="2"/>
+    <text x="462" y="386" font-size="13" letter-spacing="1.4" fill="#66718e">FOUNDER DECISIONS</text>
+    <text x="462" y="418" font-size="21" font-weight="700" fill="#26304e">Keep reasons and sources</text>
+    <path d="M795 394h52m-8-8 8 8-8 8" fill="none" stroke="#9ba6ce" stroke-width="2"/>
+    <text x="902" y="386" font-size="13" letter-spacing="1.4" fill="#66718e">YOUR AI TOOLS</text>
+    <text x="902" y="418" font-size="21" font-weight="700" fill="#26304e">Carry context forward</text>
+  </g>
+</svg>

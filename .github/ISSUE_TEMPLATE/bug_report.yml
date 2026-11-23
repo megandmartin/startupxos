@@ -1,31 +1,46 @@
 name: Bug report
-description: Something in the startupxOS app or web preview doesn't work as expected.
+description: Something in the startupxOS desktop preview or guided demo does not work as expected.
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping. Please don't paste passwords, recovery keys, company data or anything private: this page is public.
+        This issue is public. Leave out company data, passwords, recovery keys, connection details and account tokens. Use private security reporting for security concerns.
   - type: dropdown
     id: where
     attributes:
-      label: Where did it happen?
+      label: Which experience did you use?
       options:
-        - Mac app
-        - Windows app
-        - Web preview
+        - Mac website download
+        - Mac TestFlight
+        - Guided web demo
+        - Older Windows preview
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: Version
-      description: Shown in Settings → About, or in the installer file name.
-      placeholder: "0.2.15"
+      label: Version and build
+      description: On Mac, check startupxOS > About startupxOS or TestFlight. If the build is not shown, write unknown.
+      placeholder: "0.2.18 (5), or version 0.2.18 / build unknown"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and device
+      placeholder: "macOS version and Mac chip, or browser and version"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the actions you took. Use fictional examples rather than real company content.
+    validations:
+      required: true
   - type: textarea
     id: what
     attributes:
-      label: What happened, and what did you expect?
-      description: Steps to reproduce help a lot. Screenshots are welcome if they show no private data.
+      label: Expected result and actual result
+      description: Include the exact error if safe. Screenshots are useful after removing all private information.
     validations:
       required: true

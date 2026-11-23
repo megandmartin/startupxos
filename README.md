@@ -1,50 +1,85 @@
 <p align="center">
-  <a href="https://www.startupxos.com/preview"><img src="assets/startupxos-tour.gif" alt="A six-second tour of the startupxOS desktop app: Today, the workspace hub, agent approvals and connections. Real screens from the public preview with a fictional demo company." width="100%"></a>
+  <img src="assets/startupxos-release-cover.svg" alt="startupxOS: a company brain, clear decisions and your AI tools. Mac preview 0.2.18." width="100%">
 </p>
 
-<h1 align="center">startupxOS</h1>
-<p align="center"><strong>Your agents do the work. You run the company.</strong><br>The AI operating system for startups.</p>
 <p align="center">
-  <a href="https://www.startupxos.com/preview"><strong>Try the live preview</strong></a> ·
-  <a href="https://www.startupxos.com/download">Download for Mac or Windows</a> ·
-  <a href="#releases">Release notes</a> ·
-  <a href="https://github.com/megandmartin/startupxos/issues/new/choose">Give feedback</a>
+  <a href="https://www.startupxos.com/download"><strong>Get the Mac preview</strong></a> ·
+  <a href="https://www.startupxos.com/alpha">Explore the guided demo</a> ·
+  <a href="releases/v0.2.18.md">Latest release notes</a> ·
+  <a href="https://github.com/megandmartin/startupxos/issues/new/choose">Report an issue</a>
 </p>
 
-This is the public home for startupxOS **release notes, checksums and feedback**. The app's source is private.
+**startupxOS brings your company knowledge, decisions and AI context into one workspace.** It is built for founders who already use AI and want their work to carry forward, with the original evidence close at hand.
 
-## What it does
+This repository is the public home for **release notes, verified download checksums and feedback**. Application development happens in a private source repository; this is a product and release record, not an open-source distribution of the app.
 
-- **One company brain.** Capture company information with its source, and link decisions to their evidence and outcomes.
-- **Agents draft, you approve.** Drafts pause in Approvals until you approve, edit or decline them. Nothing leaves without you.
-- **Your AI tools, scoped.** Claude and Codex connect through MCP and see only what you grant, with an audit trail per tool.
-- **Your data stays yours.** An encrypted workspace on your own computer, with a vault password and an optional recovery key.
+## Start with one useful job
 
-The [web preview](https://www.startupxos.com/preview) runs a fictional demo company in your browser, with nothing to install.
+- **Bring the context you already have.** Preview a folder of Markdown or text notes, select the files to import, and keep the originals unchanged.
+- **Keep decisions with their reasons.** Save a decision, its evidence and the next step so you can find them again after reopening the app.
+- **Connect the AI tools you use.** Set up Claude Code or Codex from the app, and manage the access granted through the startupxOS connection.
+- **Build a company brain over time.** Browse imported notes and their relationships, open original source wording, and use the context in your own company workspace.
 
-## Download
+The Mac workspace stores records locally in an encrypted vault. Optional external AI and connectors can receive the context you authorize; provider accounts, permissions and usage remain separate. See [current capabilities and limits](docs/STATUS.md).
 
-| | Requirements | |
+<p align="center">
+  <a href="https://www.startupxos.com/alpha"><img src="assets/startupxos-tour.gif" alt="Desktop preview tour with a fictional demo company: Today, the workspace hub, approvals and connections. Captured from an earlier preview; the current interface continues to evolve." width="100%"></a>
+  <br><sub>Desktop preview tour. All company data shown is fictional; captured from an earlier preview.</sub>
+</p>
+
+## Choose the right preview
+
+| Channel | Current status | Where to start |
 |---|---|---|
-| **Mac** | Apple Silicon · macOS 15 or later | [Download](https://www.startupxos.com/download) |
-| **Windows** | Intel or AMD x64 · Windows 11 | [Download](https://www.startupxos.com/download) |
+| **Mac download** | **0.2.18** · Apple Silicon · macOS 15+ · Developer ID signed and notarized | [Download](https://www.startupxos.com/download) · [Install help](https://www.startupxos.com/install) |
+| **Mac TestFlight** | Invitation-only testing; build availability can differ from the website download | Use the build shown in your TestFlight invitation |
+| **Windows** | Coming soon; older Windows previews in release history are historical | [Current download status](https://www.startupxos.com/download) |
+| **Guided web demo** | A scripted, fictional company example; no real company account or live agent execution | [Try the demo](https://www.startupxos.com/alpha) |
 
-Early preview: the Mac build is ad-hoc signed and not yet notarized, and the Windows installer is not yet publisher-signed, so your computer may warn before opening it. Read the [install notes](https://www.startupxos.com/install) and check the download against the published [SHA-256 checksums](https://www.startupxos.com/releases/SHA256SUMS.txt).
+**Status checked 23 November 2026.** The desktop preview, TestFlight and browser demo are separate experiences. See [release channels](docs/STATUS.md) before comparing results across them.
 
-## Releases
+## Latest release: 0.2.18 for Mac
 
-| Version | Date | What changed |
-|---|---|---|
-| [**0.2.15**](https://github.com/megandmartin/startupxos/releases/tag/v0.2.15) · Mac and Windows · public preview | 12 Nov 2026 | The new startupxOS look: styles x, Clarity and Zen, in light and dark, kept through lock, restart and upgrade. Agent approvals never show more than the records they quote |
-| [0.2.14](https://github.com/megandmartin/startupxos/releases/tag/v0.2.14) · Mac · private test build | 10 Nov 2026 | Open demo from the vault screen |
-| [0.2.13](https://github.com/megandmartin/startupxos/releases/tag/v0.2.13) · Mac · private test build | 10 Nov 2026 | Founder Desk on Today; an on-device drafting agent for approved tasks |
-| [0.2.12](https://github.com/megandmartin/startupxos/releases/tag/v0.2.12) · Windows · private test build | 10 Nov 2026 | Start a new encrypted workspace from the vault screen; recovery-key reminder |
-| [0.2.11](https://github.com/megandmartin/startupxos/releases/tag/v0.2.11) · Windows · public preview | 10 Nov 2026 | Resumable vault setup; clearer password and workspace errors; add a recovery key later in Settings |
-| [0.2.10](https://github.com/megandmartin/startupxos/releases/tag/v0.2.10) · Windows · private test build | 10 Nov 2026 | Optional recovery-key enrolment after first setup |
-| [0.2.9](https://github.com/megandmartin/startupxos/releases/tag/v0.2.9) · Mac · public preview | 4 Nov 2026 | Encrypted workspaces with vault passwords, recovery keys, and an encrypted database and backups |
+[Read the release notes](releases/v0.2.18.md) for the 20 November Mac preview:
 
-Public previews are the versions offered for download, and each has its SHA-256 checksums on its release page. Private test builds were tested in-house before the next public preview and were never offered for download. Installers are only on [startupxos.com/download](https://www.startupxos.com/download).
+- Guided setup for your company, AI connection and work source.
+- Selected-file import for an existing second brain, with a preview before saving.
+- A Terminal setup line for Claude Code and Codex in the TestFlight build.
+- A Developer ID signed and notarized Mac download.
+
+**Verify the download** against the version-specific [SHA-256 record](checksums/SHA256SUMS-0.2.18.txt). Installers are distributed through [startupxos.com/download](https://www.startupxos.com/download), not attached here.
+
+```sh
+shasum -a 256 ~/Downloads/startupxOS-0.2.18-20261120-arm64.dmg
+```
+
+Expected SHA-256:
+
+```text
+0fd060884e032e7b60461ba6f6cff2d1f89342255aa8bfdd44c5af14c44f7f49
+```
+
+## A visible development record
+
+[CHANGELOG.md](CHANGELOG.md) separates public downloads, invitation-only test builds and the web demo. It records product changes, without presenting work under review as a shipped feature.
+
+| Milestone | What it means |
+|---|---|
+| **20 Nov · Mac 0.2.18** | Guided setup and own-note import reached the website download and TestFlight build 5 |
+| **19 Nov · Guided web demo** | A fictional company walkthrough became available at `/alpha` |
+| **Earlier previews** | Workspace encryption, saved decisions, desktop styles and guided tool setup evolved through the [release history](https://github.com/megandmartin/startupxos/releases) |
+
+Releases remain early previews. Native installation, upgrades, recovery and provider connections need to be checked on the exact build and device you use. Passing a source test does not establish customer validation or every platform's readiness.
+
+## Try it and help improve it
+
+1. Download the Mac preview, or explore the fictional web demo first.
+2. Start a test workspace with a small folder of non-sensitive notes.
+3. Save one useful decision, quit and reopen, then check that the original context is easy to recover.
+4. Tell us what worked and what got in the way. Include **version, build, channel and steps to reproduce** in a [bug report](https://github.com/megandmartin/startupxos/issues/new?template=bug_report.yml).
+
+GitHub issues are public. Leave out company information, passwords, recovery keys, connection details and account tokens. Report security concerns through the [private security channel](SECURITY.md).
 
 ## Built by
 
-[Megan Martinsone](https://github.com/megandmartin), co-founder, CEO and CTO, who writes the code: Electron, React, Node.js, an encrypted SQLite workspace and MCP. startupxOS is built on the [SuperBrain](https://github.com/megandmartin/superbrain-downloads) company-memory core.
+[Megan Martinsone](https://github.com/megandmartin), co-founder leading product and engineering. startupxOS continues the company-memory work of [SuperBrain](https://github.com/megandmartin/superbrain-downloads).
